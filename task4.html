@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sally</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                    About Me : 
+                    Im Sally , 24 years old,a software engineer graduate looking to develop my skills espically in BackEnd.
+                    <button onclick="myBtn()">Click me</button>
+            </li>
+            <li>
+                GitHub Link :
+                <a href="https://github.com/sallydabbah/Task4">Visit my GitHub account</a>
+
+            </li>
+        </ul>
+     
+    </div>
+    <script>
+        let c=0; 
+        function myBtn(){
+            const btn=document.querySelector("button");
+              if(c==1){
+              btn.innerText="Odd";
+              c=0;
+              }
+                else 
+                {
+                    c++;
+                    btn.innerText="Even";
+
+                }
+                     }
+    </script>
+</body>
+</html>
